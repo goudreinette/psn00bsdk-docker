@@ -1,0 +1,21 @@
+{
+    "configurations": [
+    {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/psn00bsdk/**"
+            ],
+            "defines":[
+                "__STDC_HOSTED__=false"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/opt/psn00bsdk/bin/mipsel-none-elf-gcc",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+
+
+    "version": 4
+}
